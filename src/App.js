@@ -10,7 +10,7 @@ import { Amplify } from 'aws-amplify';
 import config from './amplifyconfiguration.json';
 Amplify.configure(config);
 
-/*Amplify.configure({
+Amplify.configure({
   Auth: {
     Cognito: {
       //  Amazon Cognito User Pool ID
@@ -20,7 +20,7 @@ Amplify.configure(config);
     }
   }
 });
-*/
+
 
 // You can get the current config object
 const currentConfig = Amplify.getConfig();
