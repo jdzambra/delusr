@@ -3,5 +3,10 @@
     "configLevel": "project",
     "useProfile": false,
     "awsConfigFilePath": "C:\\Users\\jdzam\\.amplify\\awscloudformation\\T0wLbvPjSV"
+  },
+  "deve": {
+    "configLevel": "project",
+    "useProfile": false,
+    "awsConfigFilePath": "C:\\Users\\jdzam\\.amplify\\awscloudformation\\xU3bTYe5W3"
   }
 }
