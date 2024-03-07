@@ -1,0 +1,101 @@
+{
+  "auth": {
+    "delusr": {
+      "customAuth": false,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "serviceType": "imported"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_auth_delusr_allowUnauthenticatedIdentities": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "delusr"
+        }
+      ]
+    },
+    "AMPLIFY_auth_delusr_authRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "delusr"
+        }
+      ]
+    },
+    "AMPLIFY_auth_delusr_authRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "delusr"
+        }
+      ]
+    },
+    "AMPLIFY_auth_delusr_identityPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "delusr"
+        }
+      ]
+    },
+    "AMPLIFY_auth_delusr_identityPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "delusr"
+        }
+      ]
+    },
+    "AMPLIFY_auth_delusr_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "delusr"
+        }
+      ]
+    },
+    "AMPLIFY_auth_delusr_unauthRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "delusr"
+        }
+      ]
+    },
+    "AMPLIFY_auth_delusr_unauthRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "delusr"
+        }
+      ]
+    },
+    "AMPLIFY_auth_delusr_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "delusr"
+        }
+      ]
+    },
+    "AMPLIFY_auth_delusr_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "delusr"
+        }
+      ]
+    },
+    "AMPLIFY_auth_delusr_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "delusr"
+        }
+      ]
+    }
+  }
+}
